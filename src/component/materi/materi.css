@@ -1,0 +1,29 @@
+.m-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* padding-top: 4em; */
+}
+
+.m-add {
+  height: 3em;
+  background: #ebf5fc;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05), 5px 5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  border-width: 0;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 600;
+}
+
+.m-add:hover {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+

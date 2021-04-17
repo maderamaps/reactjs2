@@ -1,0 +1,59 @@
+.c-app {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #ebf5fc;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+}
+
+.c-wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.c-body {
+  width: 100%;
+  padding-top: 6em;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  /* background: black; */
+  display: flex;
+  justify-content: center;
+}
+
+.c-card {
+  background: #ebf5fc;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  border-width: 0;
+  padding: 15px;
+  margin: 5px;
+}
+
+.c-card-body {
+  background: #ebf5fc;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.05), 5px 5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  border-width: 0;
+  padding: 20px;
+  margin: 5px;
+  /* min-height: 250px; */
+  min-width: 200px;
+  transition: 0.5s;
+}
+
+.c-card-body:hover {
+  transform: translateY(-50px);
+  box-shadow: 0, 40px, 70px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.c-card h2 {
+  text-align: right;
+}

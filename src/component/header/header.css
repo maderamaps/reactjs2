@@ -1,0 +1,21 @@
+.c-header {
+  background: #ebf5fc;
+  position: fixed;
+  width: 100%;
+  border-bottom: 3px solid #41affd;
+  z-index: 1;
+  height: 5em;
+  /* display: flex; */
+}
+
+.h-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  vertical-align: middle;
+}
